@@ -21,15 +21,11 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{awesomelab3}
 }
 \references{
-~~ Literature or other references for background information ~~
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
 ~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
 ~~ directory ~~
 \keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
 \examples{
-~~ simple examples of the most important functions ~~
+euclidean(10, 100)
 }

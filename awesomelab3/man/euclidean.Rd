@@ -16,8 +16,12 @@ Scalar value of the greatest common divisor.
 }
 \description{
 Euclidean algorithm finds the greatest common divisor between scalars \code{a} and \code{b}.
+The algorithm works by... #TODO#
 }
 \examples{
 euclidean(a, b)
 
+}
+\references{
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
