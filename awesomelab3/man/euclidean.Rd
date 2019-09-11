@@ -19,7 +19,7 @@ Euclidean algorithm finds the greatest common divisor between scalars \code{a} a
 The algorithm works by... #TODO#
 }
 \examples{
-euclidean(a, b)
+euclidean(10, 100)
 
 }
 \references{
