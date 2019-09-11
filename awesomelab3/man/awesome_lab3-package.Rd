@@ -1,24 +1,24 @@
-\name{awesome_lab3-package}
-\alias{awesome_lab3-package}
-\alias{awesome_lab3}
+\name{awesomelab3-package}
+\alias{awesomelab3-package}
+\alias{awesomelab3}
 \docType{package}
 \title{
-\packageTitle{awesome_lab3}
+\packageTitle{awesomelab3}
 }
 \description{
-\packageDescription{awesome_lab3}
+\packageDescription{awesomelab3}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{awesome_lab3}
-\packageIndices{awesome_lab3}
+\packageDESCRIPTION{awesomelab3}
+\packageIndices{awesomelab3}
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-\packageAuthor{awesome_lab3}
+\packageAuthor{awesomelab3}
 
-Maintainer: \packageMaintainer{awesome_lab3}
+Maintainer: \packageMaintainer{awesomelab3}
 }
 \references{
 ~~ Literature or other references for background information ~~
