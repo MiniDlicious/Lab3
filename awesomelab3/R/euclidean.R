@@ -1,7 +1,7 @@
 #' Euclidean Algorithm
 #'
 #' Euclidean algorithm finds the greatest common divisor between scalars \code{a} and \code{b}.
-#' The algorithm works by... #TODO#
+#' The algorithm works by... #TODO# 
 #'
 #' @param a scalar
 #' @param b scalar
