@@ -23,8 +23,6 @@ Maintainer: \packageMaintainer{awesomelab3}
 \references{
 \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
-~~ directory ~~
 \keyword{ package }
 \examples{
 euclidean(10, 100)
