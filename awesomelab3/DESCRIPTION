@@ -8,7 +8,7 @@ Authors@R: as.person(c(
     "Laura Julià Melis <laaurajulia@gmail.com> [aut]"
   ))
 Description: This package implements both Euclidean and Dijkstra algorithms.
-License: Unlicense 
+License: MIT 
 RoxygenNote: 6.1.1
 Suggests: 
   roxygen2
