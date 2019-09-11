@@ -9,7 +9,7 @@
 #' @return Scalar value of the greatest common divisor.
 #'
 #' @examples
-#' euclidean(a, b)
+#' euclidean(10, 100)
 #' 
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #'
