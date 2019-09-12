@@ -23,7 +23,7 @@ install.packages("testthat")
 Run the following in R:
 
 ```
-devtools:install_github("MiniDlicious/Lab3", subdir="awesomelab3")
+devtools::install_github("MiniDlicious/Lab3", subdir="awesomelab3")
 ```
 
 ## Running the tests
