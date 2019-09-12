@@ -1,3 +1,20 @@
+#' dijkstra Algorithm
+#'
+#'#TODO# 
+#'
+#' @param graph ??
+#' @param init_node scalar
+#'
+#' @return path?
+#'
+#' @examples
+#' data(wiki_graph)
+#' dijkstra(wiki_graph, 1)
+#' 
+#' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#'
+#' @export
+
 dijkstra <- function(graph, init_node){
   
   # Set of all nodes
