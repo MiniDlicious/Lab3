@@ -15,7 +15,7 @@ dijkstra(graph, init_node)
 path?
 }
 \description{
-#TODO#
+it does something.
 }
 \examples{
 data(wiki_graph)
