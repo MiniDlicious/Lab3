@@ -1,15 +1,19 @@
 #' Euclidean Algorithm
 #'
-#' Euclidean algorithm finds the greatest common divisor between scalars \code{a} and \code{b}.
-#' The algorithm works by... #TODO# 
+#' Euclidean algorithm finds the greatest common divisor (gcd) between scalars \code{a} and \code{b}.
+#' The algorithm works by following two rules. (1) If \code{b=0}, then \code{gcd(a,b)=a} and the algorithm ends.
+#' (2) Elsewhere (\code{b!=0}), then \code{gcd(a,b)=gcd(b,r)} where \code{r} is the reminder of dividing \code{a} by \code{b}. \code{gcd(a,b)=gcd(b,r)} will be calculated until the remainder equals 0. 
 #'
-#' @param a scalar
-#' @param b scalar
+#' @param a numeric scalar object.
+#' @param b numeric scalar object.
 #'
-#' @return Scalar value of the greatest common divisor.
+#' @return \code{euclidean} returns a scalar value of the greatest common divisor.
+#' 
+#' If the arguments of the function are not numeric scalars or integers an error will occur.
 #'
 #' @examples
-#' euclidean(10, 100)
+#' euclidean(123612, 13892347912)  # = 4
+#' euclidean(10, 100)              # = 10
 #' 
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #'
