@@ -1,17 +1,22 @@
-#' dijkstra Algorithm
+#' Dijkstra's Algorithm
 #'
-#'it does something.
+#' \code{dijkstra} Finds the shortest path from the indicated source node ("init_node") to every adjacent node.
+#' Dijkstra's algorithm begins by creating a vector of distances. The source node is marked with a distance of 0 and the rest with infinity (\code{Inf}).  
+#' For each neighboring node, the distance will be calculated and compared with the value in the vector of distances. If the current distance is smaller than the distance in the vector will be changed. 
+#' When each neighbor node distance has been evaluated, the source node will be marked as visited. This procedure will be repeated until all the nodes in the graph are visited. 
+#' 
+#' 
+#' @param graph an object of class "\code{data.frame}" containing three columns: "v1", "v2" (the nodes of the graph) and "w" (the distance from "v1" to "v2").
+#' @param init_node numeric scalar object.
 #'
-#' @param graph ??
-#' @param init_node scalar
-#'
-#' @return path?
+#' @return \code{dijkstra} returns a vector with the shortest path distances from the starting node to every other node.
 #'
 #' @examples
 #' data(wiki_graph)
 #' dijkstra(wiki_graph, 1)
+#' dijkstra(wiki_graph, 3)
 #' 
-#' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#' @references \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
 #'
 #' @export
 
