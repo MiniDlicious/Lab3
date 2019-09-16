@@ -11,3 +11,5 @@
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/Graph_theory}
 "wiki_graph"
+
+utils::globalVariables(c("wiki_graph"))

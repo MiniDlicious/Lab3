@@ -16,8 +16,10 @@
 #' euclidean(10, 100)              # = 10
 #' 
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#' @importFrom utils tail
 #'
 #' @export
+#'
 
 euclidean <- function(a,b){
   stopifnot(is.numeric(a), is.numeric(b)) # Ensure that the arguments are numeric scalars
