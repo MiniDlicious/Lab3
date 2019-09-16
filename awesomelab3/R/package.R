@@ -13,7 +13,7 @@
 #' 
 #' Course in Advanced Programming in R.
 #' 
-#' Departmenf od Computer and Information Science, Linköping University.
+#' Departmenf of Computer and Information Science, Linköping University.
 #' 
 #' @docType package
 #' @name awesomelab3
