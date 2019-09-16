@@ -1,6 +1,6 @@
 #' Dijkstra's Algorithm
 #'
-#' \code{dijkstra} finds the shortest path from the indicated source node ("init_node") to every adjacent node.
+#' \code{dijkstra} Finds the shortest path from the indicated source node ("init_node") to every adjacent node.
 #' Dijkstra's algorithm begins by creating a vector of distances. The source node is marked with a distance of 0 and the rest with infinity (\code{Inf}).  
 #' For each neighboring node, the distance will be calculated and compared with the value in the vector of distances. If the current distance is smaller than the distance in the vector will be changed. 
 #' When each neighbor node distance has been evaluated, the source node will be marked as visited. This procedure will be repeated until all the nodes in the graph are visited. 
