@@ -21,9 +21,7 @@
 
 euclidean <- function(a,b){
   stopifnot(is.numeric(a), is.numeric(b)) # Ensure that the arguments are numeric scalars
-  q = vector()    # quotients vector
   r = vector()    # reminders vector
-  q[1] = a %/% b  # first quotient value
   r[1] = a %% b   # first reminder value
   k = 2           # index
   
@@ -31,7 +29,6 @@ euclidean <- function(a,b){
   while(tail(r, 1) != 0){ # while the last reminder isn't equal to 0
     a = b
     b = r[k-1]
-    q[k] = a %/% b
     r[k] = a %% b
     k = k + 1
   }
