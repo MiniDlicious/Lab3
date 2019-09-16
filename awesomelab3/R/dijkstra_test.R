@@ -1,4 +1,4 @@
-#' Dijkstra's Algorithm
+#' Dijkstra's Algorithm.
 #'
 #' \code{dijkstra} Finds the shortest path from the indicated source node ("init_node") to every adjacent node.
 #' Dijkstra's algorithm begins by creating a vector of distances. The source node is marked with a distance of 0 and the rest with infinity (\code{Inf}).  
@@ -16,7 +16,7 @@
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
 #' 
-#' @references \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
+#' @references \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 #'
 #' @export
 
