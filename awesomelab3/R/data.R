@@ -9,5 +9,5 @@
 #'   \item{v2}{a node of the graph, adjacent node of v1}
 #'   \item{w}{the distance of the path between v1 and v2}
 #' }
-#' @source \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+#' @source \url{https://en.wikipedia.org/wiki/Graph_theory}
 "wiki_graph"

@@ -11,7 +11,7 @@
   \item{w}{the distance of the path between v1 and v2}
 }}
 \source{
-\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+\url{https://en.wikipedia.org/wiki/Graph_theory}
 }
 \usage{
 wiki_graph
