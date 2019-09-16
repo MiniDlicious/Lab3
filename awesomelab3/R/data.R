@@ -1,13 +1,13 @@
-#' Prices of 50,000 round cut diamonds.
+#' Graph of nodes and distances between nodes
 #'
-#' A dataset containing the prices and other attributes of almost 54,000
-#' diamonds.
+#' A dataset containing the nodes of a graph and the distances between them
+#' (it is the first graph at the wikipedia page, see References).
 #'
-#' @format A data frame with 53940 rows and 10 variables:
+#' @format A data frame with 18 rows and 3 variables:
 #' \describe{
-#'   \item{v1}{price, in US dollars}
-#'   \item{v2}{weight of the diamond, in carats}
-#'   \item{w}{weight of the diamond, in carats}
+#'   \item{v1}{a node of the graph}
+#'   \item{v2}{a node of the graph, adjacent node of v1}
+#'   \item{w}{the distance of the path between v1 and v2}
 #' }
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
 "wiki_graph"
