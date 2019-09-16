@@ -4,7 +4,7 @@
 \alias{dijkstra}
 \title{Dijkstra's Algorithm.}
 \usage{
-dijkstra(graph = wiki_graph, init_node = 1)
+dijkstra(graph = wiki_graph, init_node)
 }
 \arguments{
 \item{graph}{an object of class "\code{data.frame}" containing three columns: "v1", "v2" (the nodes of the graph) and "w" (the distance from "v1" to "v2").}

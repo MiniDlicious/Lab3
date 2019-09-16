@@ -4,13 +4,22 @@
 \name{awesomelab3}
 \alias{awesomelab3}
 \alias{awesomelab3-package}
-\title{foo: A package for computating the notorious bar statistic.}
+\title{awesomelab3: learning to create a package in R.}
 \description{
-The foo package provides three categories of important functions:
-foo, bar and baz.
+The awesomelab3 package provides two diferent and very famous algorithms:
+Euclidean algorithm and Dijkstra's algorithm.
 }
-\section{Foo functions}{
+\section{Functions}{
 
-The foo functions ...
+\code{euclidean()} returns the greatest common divisor between scalars a and b.
+
+\code{dijkstra()} returns the shortest path in a graph.
 }
 
+\author{
+Martin Svensson and Laura Julia Melis.
+
+Course in Advanced Programming in R.
+
+Departmenf od Computer and Information Science, Linköping University.
+}

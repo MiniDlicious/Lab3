@@ -1,6 +1,7 @@
 #' Euclidean Algorithm
 #'
 #' Euclidean algorithm finds the greatest common divisor (gcd) between scalars \code{a} and \code{b}.
+#' 
 #' The algorithm works by following two rules. 
 #' 
 #' (1) If \code{b=0}, then \code{gcd(a,b)=a} and the algorithm ends.

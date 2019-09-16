@@ -1,11 +1,19 @@
-#' awesomelab3: A package created to learn how to create a package in R.
+#' awesomelab3: learning to create a package in R.
 #'
 #' The awesomelab3 package provides two diferent and very famous algorithms:
 #' Euclidean algorithm and Dijkstra's algorithm.
 #' 
-#' @section \code{awesomelab3} functions:
-#' \code{euclidean(a, b)} returns the greatest common divisor between scalars a and b.
-#' \code{dijkstra(graph, init_node)} returns the shortest path in a graph.
+#' @section Functions:
+#' \code{euclidean()} returns the greatest common divisor between scalars a and b.
+#' 
+#' \code{dijkstra()} returns the shortest path in a graph.
+#' 
+#' @author
+#' Martin Svensson and Laura Julia Melis.
+#' 
+#' Course in Advanced Programming in R.
+#' 
+#' Departmenf od Computer and Information Science, Linköping University.
 #' 
 #' @docType package
 #' @name awesomelab3
