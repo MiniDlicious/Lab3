@@ -1,11 +1,12 @@
-#' foo: A package for computating the notorious bar statistic.
+#' awesomelab3: A package created to learn how to create a package in R.
 #'
-#' The foo package provides three categories of important functions:
-#' foo, bar and baz.
+#' The awesomelab3 package provides two diferent and very famous algorithms:
+#' Euclidean algorithm and Dijkstra's algorithm.
 #' 
-#' @section Foo functions:
-#' The foo functions ...
-#'
+#' @section \code{awesomelab3} functions:
+#' \code{euclidean(a, b)} returns the greatest common divisor between scalars a and b.
+#' \code{dijkstra(graph, init_node)} returns the shortest path in a graph.
+#' 
 #' @docType package
 #' @name awesomelab3
 NULL

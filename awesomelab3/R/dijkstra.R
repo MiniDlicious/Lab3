@@ -21,7 +21,7 @@
 #' @export
 #' 
 
-dijkstra <- function(graph=wiki_graph, init_node=1){
+dijkstra <- function(graph=wiki_graph, init_node){
   # Set of all nodes
   nodes_set <- 1:max(graph[,1])
   
